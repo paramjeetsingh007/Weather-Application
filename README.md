@@ -17,8 +17,7 @@ This is a **Weather Application** that provides real-time weather updates for an
 - **Weather API** (RapidAPI)
 - **CSS3** (Styling & Animations)
 
-## 📸 Screenshots
-(Include relevant screenshots of your app here)
+
 
 ## 🔧 Installation & Setup
 1. Clone the repository:
