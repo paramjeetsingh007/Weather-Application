@@ -1,79 +1,76 @@
-# Weather App
+# Weather Application
 
-## 🌤️ Overview
-This is a **Weather Forecast App** built using **React.js**. It allows users to check real-time weather data for any city. The app features a **dashboard screen** with animations and a "Back to Dashboard" button for easy navigation.
+## 🌦️ Overview
+This is a **Weather Application** that provides real-time weather updates for any city using the Weather API. The app has a **modern, responsive UI** with smooth animations and a professional design.
 
-## ✨ Features
-- 🎨 **Modern UI** with animations and a professional look.
-- 🌍 **Search for any city** to get real-time weather updates.
-- 🌡️ Displays **temperature, wind speed, humidity, cloud percentage, and condition.**
-- 🏠 **Dashboard Screen** with a welcome message before entering the app.
-- 🔄 **Back to Dashboard** button for smooth navigation.
-- 📱 **Fully Responsive** for mobile, tablet, and desktop.
+## 🚀 Features
+- Fetches real-time weather data from an API
+- Beautifully designed **dashboard screen** with animations
+- Responsive design for **mobile and desktop**
+- Displays temperature, wind speed, humidity, and cloud percentage
+- **Back to Dashboard** button for better navigation
+- Styled using **CSS animations and gradient backgrounds**
 
-## 🚀 Live Demo
-[Check Live Demo Here](#) *(Add deployed link if available)*
+## 🛠️ Technologies Used
+- **React.js** (Frontend)
+- **Axios** (API Requests)
+- **Weather API** (RapidAPI)
+- **CSS3** (Styling & Animations)
 
-## 🛠️ Tech Stack
-- **Frontend**: React.js, CSS (Tailwind-style custom styling)
-- **API**: [WeatherAPI](https://rapidapi.com/weatherapi/api/weatherapi-com)
+## 📸 Screenshots
+(Include relevant screenshots of your app here)
 
-## 🖥️ Installation
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/weather-app.git
-   cd weather-app
+## 🔧 Installation & Setup
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/paramjeetsingh007/Weather-Application.git
    ```
-2. **Install dependencies:**
-   ```bash
+2. Navigate to the project directory:
+   ```sh
+   cd Weather-Application
+   ```
+3. Install dependencies:
+   ```sh
    npm install
    ```
-3. **Create a `.env` file in the root directory and add:**
-   ```bash
+4. Create a `.env` file in the root directory and add your **Weather API Key**:
+   ```sh
    VITE_RAPIDAPI_KEY=your_api_key_here
    ```
-4. **Run the app:**
-   ```bash
+5. Start the development server:
+   ```sh
    npm run dev
    ```
+6. Open your browser and visit **`http://localhost:5173/`**
+
+## 📜 Usage
+1. Enter a **city name** in the input field.
+2. Click **Get Weather** to fetch real-time weather data.
+3. View **temperature, wind speed, humidity, and cloud status**.
+4. Click **Back to Dashboard** to return to the welcome screen.
 
 ## 📂 Project Structure
 ```
-/weather-app
+Weather-Application/
+│-- public/
 │-- src/
 │   ├── components/
-│   │   ├── Dashboard.js
-│   │   ├── Weather.js
-│   ├── App.js
-│   ├── main.jsx
-│   ├── styles/
-│   │   ├── Dashboard.css
-│   │   ├── App.css
-│-- public/
+│   │   ├── Header.jsx
+│   │   ├── Dashboard.jsx
+│   ├── App.jsx
+│   ├── index.css
 │-- .env
 │-- package.json
 │-- README.md
 ```
 
-## 📝 Usage
-- **Enter a city name** to get its current weather data.
-- Click the **Get Started** button on the dashboard to enter the app.
-- Click the **Back to Dashboard** button to return.
-
-## 📸 Screenshots
-🚀 *Add screenshots of your app here.*
-
-## 🛠️ API Integration
-The app uses **WeatherAPI** from RapidAPI to fetch weather data.
-- API Endpoint: `https://weatherapi-com.p.rapidapi.com/current.json?q=city_name`
-- Authentication: Requires an **API Key**
-
-## 👨‍💻 Author
-- **[Paramjeet](https://github.com/paramjeetsingh007)** *(Replace with your actual GitHub link)*
+## 🔗 Repository
+[GitHub Repository](https://github.com/paramjeetsingh007/Weather-Application)
 
 ## 📜 License
-This project is **open-source** and available under the **MIT License**.
+This project is licensed under the **MIT License**.
 
 ---
-🚀 **Enjoy coding!** If you like this project, give it a ⭐ on GitHub!
+
+💡 **Feel free to contribute or report issues!** 🚀
 
