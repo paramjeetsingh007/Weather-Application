@@ -1,0 +1,66 @@
+/* Dashboard Background */
+.dashboard-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    border-radius: 20px;
+  }
+  
+  /* Content Styling */
+  .dashboard-content {
+    animation: fadeIn 1s ease-in-out;
+    max-width: 550px;
+    padding: 20px;
+   
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+ 
+  }
+  
+  .delay {
+    animation-delay: 0.5s;
+  }
+  
+  .delay-2 {
+    animation-delay: 1s;
+  }
+  
+  /* Button Styling */
+  .start-btn {
+    margin-top: 20px;
+    padding: 14px 28px;
+    background: white;
+    color: #1e3c72;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .start-btn:hover {
+    background: #2a5298;
+    color: white;
+    transform: scale(1.1);
+  }
+  

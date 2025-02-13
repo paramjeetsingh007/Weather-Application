@@ -1,0 +1,137 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.app-container {
+  text-align: center;
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Weather Search Box */
+.weather-container {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 490px;
+  backdrop-filter: blur(10px);
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Input & Button */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.get-weather-btn {
+  width: 100%;
+  background: #f59e0b;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.get-weather-btn:hover {
+  background: #ea580c;
+  transform: scale(1.05);
+}
+
+/* Weather Details */
+.details {
+  margin-top: 20px;
+  color: white;
+}
+
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-info img {
+  width: 80px;
+  height: 80px;
+}
+
+.weather-info h3 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.extra-details {
+  margin-top: 10px;
+}
+
+.extra-details p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Back Button */
+.back-btn {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  background: #ff4f4f;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.back-btn:hover {
+  background: #d90429;
+  transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .weather-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .back-btn {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
